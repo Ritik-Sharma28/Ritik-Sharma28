@@ -163,19 +163,26 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Ritik-Sharma28&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<!-- Replace YOUR_VERCEL_URL with your deployed URL from Option 1 -->
+<!-- OR use github-profile-summary-cards as shown below -->
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ritik-Sharma28&theme=tokyonight" width="90%" />
+
+<br/>
+
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ritik-Sharma28&theme=tokyonight" />
 &nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ritik-Sharma28&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ritik-Sharma28&theme=tokyonight" />
 
 <br/><br/>
 
-<img width="600" src="https://github-readme-streak-stats.herokuapp.com/?user=Ritik-Sharma28&theme=tokyonight&hide_border=true" />
+<img width="600" src="https://github-readme-streak-stats-eight.vercel.app/?user=Ritik-Sharma28&theme=tokyonight&hide_border=true" />
 
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ritik-Sharma28&theme=tokyo-night&hide_border=true&area=true" width="90%"/>
 
-</div>
+</div>>
 
 ---
 
