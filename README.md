@@ -191,8 +191,6 @@
 
 </div>
 
-> 💡 *To enable the snake animation, add a GitHub Actions workflow — see [snk](https://github.com/Platane/snk) for setup.*
-
 ---
 
 ## 🤝 Let's Connect
