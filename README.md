@@ -26,9 +26,9 @@
 
 ## ⚡ Current Focus
 
-- 🏗️ Full Stack Development — **MERN Stack**
-- 🤖 Generative AI & **RAG** Pipelines
-- 🧠 Data Structures & Algorithms (400+ LeetCode problems)
+- 🏗️ Full Stack Development — **MERN Stack** & **FastAPI**
+- 🤖 Generative AI, **Agentic Workflows**, & **RAG** Pipelines
+- 🧠 Data Structures & Algorithms (650+ LeetCode problems)
 - ⚔️ Real-time systems with **WebSockets**
 - 🐳 Containerization with **Docker**
 
@@ -39,6 +39,7 @@
 ### Languages
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -49,15 +50,18 @@
 ### Backend
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 ### Databases
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white)
 
 ### AI / ML
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=google&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=google&logoColor=white)
 
@@ -79,31 +83,41 @@
 ### ⚔️ [CodeRax](https://github.com/Ritik-Sharma28/CodeRax) &nbsp; [![Live](https://img.shields.io/badge/Live-Vercel-black?style=flat-square)](https://coderax-eosin.vercel.app)
 **Full-stack competitive programming platform**
 
-`React · Node.js · MongoDB · Redis · Socket.io · Groq · Gemini`
+`React · Node.js · MongoDB · Redis · Socket.io · Gemini`
 
-- 🏟️ Problem Arena with custom judge engine
-- ⚔️ Real-time 1v1 DSA Battles (ELO-ranked)
-- 🧠 AI Revision Mentor (Groq-powered)
-- 🎙️ Voice-driven AI Mock Interviews (Gemini)
-- 📐 Interactive DSA Visualizer (sorting, trees, graphs)
-- 🔐 JWT auth + Redis session management
+- 💻 **Execution Service**: Compiles and evaluates C++, Python, and Java submissions against hidden test cases.
+- ⚔️ **Real-Time Battles**: 1v1 DSA Arena using Socket.io and Redis, featuring a ranked queue and background matchmaking.
+- 🧠 **AI Integrations**: Gemini AI-powered Revision Mentor and Mock Interview module providing automated performance feedback.
 
 </td>
 <td width="50%" valign="top">
 
-### 🧠 [DocuMind AI](https://github.com/Ritik-Sharma28/DocuMind-AI) &nbsp; [![Live](https://img.shields.io/badge/Live-Render-46E3B7?style=flat-square)](https://documind-ai-pvqg.onrender.com/)
-**Intelligent Document Chat Platform**
+### 🧠 [Notes Maker (ChatNotes)](https://github.com/Ritik-Sharma28/Notes_Maker) &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](#)
+**AI-Powered Note Generation**
 
-`MERN · Redis · Pinecone · LLM API · Docker · RAG`
+`React · FastAPI · PostgreSQL · LangGraph · Redis`
 
-- 📄 Upload PDFs and chat with your documents
-- 🔍 RAG pipeline with Pinecone vector search
-- 🛡️ Redis rate-limiting for API protection
-- 🐳 Fully Dockerized deployment
+- 📝 Generates structured study notes using a multi-agent LangGraph pipeline.
+- 🔍 Semantic topic routing with PostgreSQL & pgvector.
+- 🛡️ Background task queues and rate limiting via Redis.
+- 📄 Automated PDF/HTML exports via Playwright.
 
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+### 📄 [DocuMind AI](https://github.com/Ritik-Sharma28/DocuMind-AI) &nbsp; [![Live](https://img.shields.io/badge/Live-Render-46E3B7?style=flat-square)](https://documind-ai-pvqg.onrender.com/)
+**Intelligent Document Chat Platform**
+
+`MERN · Redis · Pinecone · LLM API · Docker · RAG`
+
+- 📄 Upload PDFs and chat with your documents.
+- 🔍 RAG pipeline with Pinecone vector search.
+- 🛡️ Redis rate-limiting for API protection.
+- 🐳 Fully Dockerized deployment.
+
+</td>
 <td width="50%" valign="top">
 
 ### 📚 [Study Mate](https://github.com/Ritik-Sharma28/Study_Mate) &nbsp; [![Live](https://img.shields.io/badge/Live-Render-46E3B7?style=flat-square)](https://studymate-frontend-kq19.onrender.com/)
@@ -111,12 +125,14 @@
 
 `MERN · Socket.io · Tailwind CSS`
 
-- 💬 Real-time chat system via Socket.io
-- 🤝 Weighted recommendation algorithm for partner matching
-- 📰 Relevance-based content feed (tag overlap + time-decay)
-- ✅ Strict Zod schema validation
+- 💬 Real-time chat system via Socket.io.
+- 🤝 Weighted recommendation algorithm for partner matching.
+- 📰 Relevance-based content feed (tag overlap + time-decay).
+- ✅ Strict Zod schema validation.
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📋 [Codeforces CP Sheet](https://github.com/Ritik-Sharma28/Codeforces-CP-Sheet)
@@ -124,10 +140,13 @@
 
 `C++ · Competitive Programming`
 
-- 📊 Structured practice tracker for Codeforces problems
-- 🎯 Organized by topic, difficulty, and rating
-- 🧩 100+ solved problems
+- 📊 Structured practice tracker for Codeforces problems.
+- 🎯 Organized by topic, difficulty, and rating.
+- 🧩 100+ solved problems.
 
+</td>
+<td width="50%" valign="top">
+<!-- Empty block for alignment -->
 </td>
 </tr>
 </table>
@@ -138,7 +157,7 @@
 
 | 🏅 | Achievement |
 |---|---|
-| 🥇 | **Google Big Code 2026** — Topped 1500+ participants from all over India |
+| 🥇 | **Google Big Code 2026** — Topped 1500 participants from all over India |
 | 🏆 | **HACK X VID-YOUTH 2026** — Offline Finalist (Top 15 / 300+ inter-college teams) |
 | 🚀 | **Smart India Hackathon** — Cleared internal rounds 2 consecutive years (100+ teams) |
 | 💻 | **GeeksforGeeks** — Winner, College-level Solo Coding Competition (92+ participants) |
@@ -151,9 +170,9 @@
 
 | Platform | Stats | Profile |
 |---|---|---|
-| ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | **400+ problems** solved | [Just_Ritik_Things](https://leetcode.com/Just_Ritik_Things/) |
-| ![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=flat-square&logo=codechef&logoColor=white) | **3★** · Rating **1605** | [hard_shore_99](https://www.codechef.com/users/hard_shore_99) |
-| ![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white) | **100+ problems** solved | [Ritik-_-](https://codeforces.com/profile/Ritik-_-) |
+| ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | **Knight** · Rating **1981** (650+ solved) | [Just_Ritik_Things](https://leetcode.com/Just_Ritik_Things/) |
+| ![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=flat-square&logo=codechef&logoColor=white) | **3★** · Rating **1664** | [hard_shore_99](https://www.codechef.com/users/hard_shore_99) |
+| ![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white) | **Pupil** · Rating **1285** | [Ritik-_-](https://codeforces.com/profile/Ritik-_-) |
 
 </div>
 
